@@ -10,8 +10,6 @@ RUN chmod -R o-wx /var/www/html
 
 EXPOSE 80
 
-CMD ["apache2-foreground"]
-
 
 FROM mysql:latest AS redlocksql
 
